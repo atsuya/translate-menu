@@ -10,12 +10,13 @@ class Translator {
   }
 
   /**
-   * Translates a word.
-   * @param {string} word A word to translate from.
-   * @return {string} A word that is translated to.
+   * Returns a URL that points to a page that offers translation.
+   * @param {string} word Word to translate.
+   * @return {string} URL that points to a page that offers translation for the
+   *     given word.
    */
-  translate(word) {
-    return 'うんこ'
+  translationPageUrl(word) {
+    return `https://dictionary.goo.ne.jp/srch/en/${word}/m0u/`
   }
 }
 
