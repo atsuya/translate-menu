@@ -4,6 +4,7 @@
   "description": "Electron menubar app that translates a word from English to Japanese.",
   "main": "main.js",
   "scripts": {
+    "test": "NODE_ENV=test mocha -C test",
     "start": "electron ."
   },
   "repository": "git@github.com:atsuya/translate-menu.git",
@@ -14,5 +15,8 @@
     "electron": "2.0.2",
     "eslint": "4.19.1",
     "eslint-config-google": "0.9.1"
+  },
+  "dependencies": {
+    "mocha": "5.2.0"
   }
 }
